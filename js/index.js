@@ -9,8 +9,7 @@ $(document).ready(function() {
 		}
 	});
 
-	$('#about').on({
-		click: function () {
+	$('#about').on({click: function () {
 			if ($('.abouttext').hasClass('showModal')){
 				$('.abouttext').removeClass('showModal');
 			} else{
@@ -64,10 +63,13 @@ $(document).ready(function() {
 
  	setInterval(nextQuote, 3000);
 	
-	 $('.line').click(function(){
-	 	$().show('nav');
+	 $('#hamburger').click(function(){
+	 	if ($('nav').hasClass('show')){
+			$('nav').removeClass('show');
+			} else{
+				$('nav').addClass('show');
+			}
 
 	 });
-	
 
 });

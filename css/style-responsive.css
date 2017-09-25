@@ -18,6 +18,7 @@ header nav ul li {
 	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 }
 
+
 ul {
 	text-align: center;
 }
@@ -140,17 +141,46 @@ nav .line {
     margin-right: 20px; 
 }
 
-/*@media screen and (max-width: 768px) and (min-width: 1080px) {
+@media screen and (max-width: 768px) and (min-width: 1080px) {
 
-nav {
-    font-size:;
-}
-}*/
+
+} /*tablet css ends here*/
+
+
 
 @media screen and (max-width:768px){ 
 
 nav {
     width:100%;
+    display: none;
+}
+
+#hamburger{
+    position: relative;
+    left: 100%;
+    margin-left: -42px;
+    margin-top: -40px;
+}
+a {
+    line-height: 30px;
+}
+
+.show{
+    display: block !important;
+}
+
+ul{
+    text-align: right !important;  
+}
+li{
+    display: list-item !important;
+    text-align: right !important;  
+}
+
+body {
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 190%;
 }
 
 .line {
@@ -160,35 +190,34 @@ nav {
     border-radius: 1em;
     margin-top: .25em;
     display: block; 
-    display:block;
     position: relative;
-    top:-3.05em;
-    right: -350%;
     cursor: pointer;
 } 
 
-nav a {
-    display: none;
-}
-
-/*.slideDown{
-    height:20em;
-}*/
-
 #prev {
     position: absolute;
-    top: 40%;
+    top: 30%;
     display: block;
     left: 7%;
 }
 
 #next {
     position: absolute;
-    top: 40%;
+    top: 30%;
     display: block;
     right: 7%;
 }
-
-
-
+.menuoptions {
+    left:1%;
+    top: 21%;
 }
+.abouttext {
+    left: 1%;
+    top: 55%;
+    text-align: center;
+}
+.quote {
+    margin-top: 30%;
+}
+
+} /*mobile css ends here*/
