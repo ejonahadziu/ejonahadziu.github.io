@@ -124,6 +124,7 @@ footer p {
     opacity: 0.8;
     font-family: 'Libre Barcode 128 Text', cursive;
     padding: 5px;
+    background: url(bg-arrows.png) 0 0;
 }
 
 .showModal {
@@ -243,15 +244,7 @@ body {
 }
 .quote {
     margin-top: 30%;
-}
-.showModal {
-    display: block !important;
-    position: absolute;
-    top: 17%;
-    bottom: 5%;
-    left: 1.5%;
-    right: 1.5%;
-} /*mobile css ends here*/
+}/*mobile css ends here*/
 
 @media screen and (min-width:1200px) { 
     
