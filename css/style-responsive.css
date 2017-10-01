@@ -143,6 +143,27 @@ nav .line {
 
 @media screen and (max-width: 768px) and (min-width: 1080px) {
 
+nav {
+    width:100%;
+    display: none;
+}
+body {
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 190%;
+}
+#prev {
+    position: absolute;
+    top: 30%;
+    display: block;
+    left: 15%;
+}
+#next {
+    position: absolute;
+    top: 30%;
+    display: block;
+    right: 15%;
+}
 
 } /*tablet css ends here*/
 
@@ -209,11 +230,11 @@ body {
 }
 .menuoptions {
     left:1%;
-    top: 21%;
+    top: 25%;
 }
 .abouttext {
     left: 1%;
-    top: 55%;
+    top: 65%;
     text-align: center;
 }
 .quote {
@@ -221,3 +242,12 @@ body {
 }
 
 } /*mobile css ends here*/
+
+@media screen and (min-width:1200px) { 
+    
+body {
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 220%;
+}
+}
