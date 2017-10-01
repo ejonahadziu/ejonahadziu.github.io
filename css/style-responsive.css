@@ -188,6 +188,8 @@ a {
 
 .show{
     display: block !important;
+    height: 0;
+    transition: height 0.3s;
 }
 
 ul{
@@ -230,17 +232,25 @@ body {
 }
 .menuoptions {
     left:1%;
-    top: 25%;
+    top: 40%;
+    font-size: 12px;
 }
 .abouttext {
     left: 1%;
-    top: 65%;
+    top: 40%;
     text-align: center;
+    font-size: 12px;
 }
 .quote {
     margin-top: 30%;
 }
-
+.showModal {
+    display: block !important;
+    position: absolute;
+    top: 17%;
+    bottom: 5%;
+    left: 1.5%;
+    right: 1.5%;
 } /*mobile css ends here*/
 
 @media screen and (min-width:1200px) { 
@@ -250,4 +260,5 @@ body {
     background-repeat: no-repeat;
     background-size: 100% 220%;
 }
+
 }
