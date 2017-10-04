@@ -183,7 +183,7 @@ nav .line {
     body {
         width: 100%;
         background-repeat: no-repeat;
-        background-size: 100% 200%;
+        background-size: 100% 215%;
     }
 
     .line {
@@ -201,14 +201,14 @@ nav .line {
         position: absolute;
         top: 30%;
         display: block;
-        left: 7%;
+        left: 11%;
     }
 
     #next {
         position: absolute;
         top: 30%;
         display: block;
-        right: 7%;
+        right: 11%;
     }
 
     .menuoptions {
@@ -229,42 +229,51 @@ nav .line {
     }/*mobile css ends here*/
 }
 
-@media screen and (max-width: 768px) and (min-width: 1080px) {
+@media screen and (min-width: 768px) and (max-width: 1080px) {
 
     nav {
         width:100%;
-        display: none;
     }
 
     body {
         width: 100%;
         background-repeat: no-repeat;
-        background-size: 100% 190%;
+        background-size: 100% 210%;
+    }
+
+    .main {
+        font-size: 30px;
+        font-weight: 600;
+        font-family: 'Libre Barcode 128 Text', cursive;
+        text-align: center;
+        margin: 100px;
     }
 
     #prev {
         position: absolute;
         top: 30%;
         display: block;
-        left: 7% !important;
+        left: 14% !important;
     }
 
     #next {
         position: absolute;
         top: 30%;
         display: block;
-        right: 7% !important;
+        right: 14% !important;
     }
 
     .menuoptions {
         left:1%;
-        font-size: 12px;
+        top: 15%;
+        font-size: 13px;
     }
 
     .abouttext {
         left: 1%;
+        top: 15%;
         text-align: center;
-        font-size: 12px;
+        font-size: 13px;
     }
 
 } /*tablet css ends here*/
