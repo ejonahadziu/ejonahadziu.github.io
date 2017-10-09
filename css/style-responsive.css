@@ -287,3 +287,36 @@ nav .line {
     }
 
 }
+
+@media screen and (min-width: 1400px) { 
+    
+    body {
+        width: 100% !important;
+        background-repeat: no-repeat;
+        background-size: 100% 230% !important;
+    }
+
+@media screen and (min-width: 1600px) { 
+    
+    body {
+        width: 100% !important;
+        background-repeat: no-repeat;
+        background-size: 100% 240% !important;
+    }
+
+@media screen and (min-width: 1800px) { 
+    
+    body {
+        width: 100% !important;
+        background-repeat: no-repeat;
+        background-size: 100% 250% !important;
+    }
+
+@media screen and (min-width: 2000px) { 
+    
+    body {
+        width: 100% !important;
+        background-repeat: no-repeat;
+        background-size: 100% 260% !important;
+    }
+}

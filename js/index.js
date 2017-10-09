@@ -19,9 +19,9 @@ $(document).ready(function() {
 	});
 
 	var quotes = [ 
-		"With enough coffee anything is possible",
-		"A coffee a day keeps the grumpy way",
-		"I only drink coffee on days ending in 'Y' ",
+		"\"With enough coffee anything is possible\"",
+		"\"A coffee a day keeps the grumpy way\"",
+		"\"I only drink coffee on days ending in 'Y'\"",
 	];
 
 	var i = 0;
