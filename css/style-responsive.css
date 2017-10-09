@@ -320,3 +320,30 @@ nav .line {
         background-size: 100% 260% !important;
     }
 }
+
+@media screen and (min-width: 2200px) { 
+    
+    body {
+        width: 100% !important;
+        background-repeat: no-repeat;
+        background-size: 100% 270% !important;
+    }
+}
+
+@media screen and (min-width: 2400px) { 
+    
+    body {
+        width: 100% !important;
+        background-repeat: no-repeat;
+        background-size: 100% 280% !important;
+    }
+}
+
+@media screen and (min-width: 2600px) { 
+    
+    body {
+        width: 100% !important;
+        background-repeat: no-repeat;
+        background-size: 100% 290% !important;
+    }
+}
